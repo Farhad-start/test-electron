@@ -1,0 +1,22 @@
+{
+  "name": "test-electron",
+  "version": "1.0.0",
+  "description": "test project",
+  "repository": "git@github.com:Farhad-start/test-electron.git",
+  "author": "Farhad Tursunov ",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "css-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.2.2",
+    "sass": "^1.39.0",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
