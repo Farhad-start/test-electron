@@ -11,6 +11,75 @@
 </head>
 
 <body>
+  <main>
+      <div class="container">
+          <div class="row">
+          <div class="card w-100 p-0 border-0 mb-3">
+          <h2 class="font-weight-bold">
+              Записи на вашей стене
+          </h2>
+          <dl id="wall">
+              <dd id="message-2" class="card w-100 shadow mb-3">
+                  <div class="card-body">
+                      <div class="row">
+                          <div class="col-auto col-sm-auto">
+                              <img class="wall-avatar" src="./img/deadpool.png" alt="Дэдпул Батькович">
+                          </div>
+                          <div class="col d-flex align-items-center">
+                          <div>
+                          <span class="wall-user text-primary font-weight-bold">Дэдпул Батькович</span>
+                          <br><span class="wall-time text-secondary">вчера в 16:06</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="wall-msg row mt-2 pl-2">
+                  Сайт рыбатекст поможет дизайнеру,верстальщику,вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском
+                  языке,а начинающему оратору отточить навык публичных выступленийв домашних условиях. При создании генератора мы использовали небезизвестный
+                  универсальный код речей. текст генерируется обзацами случайным образомот других до десяти предложений в абзаце,что позволяет сделать текст более
+                  привлекательным и живым для визуально-слухового восприятия.
+              </div>
+          </div>
+          </dd>
+          <div id="wall">
+              <dd id="message-2" class="card w-100 shadow mb-3">
+                  <div class="card-body">
+                      <div class="row">
+                          <div class="col-auto col-sm-auto">
+                              <img class="wall-avatar" src="./img/logan.png" alt="Рассомаха Логинович">
+                          </div>
+                          <div class="col d-flex align-items-center">
+                          <div>
+                          <span class="wall-user text-primary font-weight-bold">Рассомаха Логинович</span>
+                          <br><span class="wall-time text-secondary">вчера в 16:06</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="wall-msg row mt-2 pl-2">
+                  Сайт рыбатекст поможет дизайнеру,верстальщику,вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском
+                  языке,а начинающему оратору отточить навык публичных выступленийв домашних условиях. При создании генератора мы использовали небезизвестный
+                  универсальный код речей. текст генерируется обзацами случайным образомот других до десяти предложений в абзаце,что позволяет сделать текст более
+                  привлекательным и живым для визуально-слухового восприятия.
+              </div>
+          </dd>
+          </div>
+
+          <div class="card w-100 p-0 border-0 mb-3">
+              <h2 class="font-weight-bold">
+                  Добавить запись
+              </h2>
+              <form id="wall-msg-new">
+                  <input class="form-control shadow" type="text" id="wall-msg-new-user" placeholder="Ваше имя" required>
+                  <textarea class="form-control shadow mt-3 mb-3" id="wall-msg-new-txt" rows="3" placeholder="Текст записи" required>
+                  </textarea>
+                  <button id="wall-msg-new-send" type="button" class="btn btn-primary float-left">
+                      Отправить
+                  </button>
+                  <div id="wall-msg-new-note" class="d-none float-right float-md-left pl-md-4 text-nowrap text-truncate">
+                  </div>
+              </form>
+          </div>
+      </div>
+  </main>
   <footer>
     <div class="content">
       <span>elbook 2018</span>
