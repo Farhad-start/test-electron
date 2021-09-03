@@ -1,5 +1,7 @@
 @import "~bootstrap/scss/bootstrap";
 
+
+
 footer {
   height: 58px;
   width: 100%;
@@ -7,4 +9,8 @@ footer {
   color: white;
   display: flex;
   align-items: center;
+}
+
+footer span {
+  margin-left: 20px;
 }
