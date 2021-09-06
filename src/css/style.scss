@@ -15,19 +15,6 @@ $container-max-widths: (
 @import 'bootstrap/scss/_utilities';
 @import 'bootstrap/scss/utilities/_api';
 
-footer {
-  height: 58px;
-  width: 100%;
-  background-color: #278ece;
-  color: white;
-  display: flex;
-  align-items: center;
-}
-
-footer span {
-  margin-left: 20px;
-}
-
 // Layout & components
 @import 'bootstrap/scss/_root';
 @import 'bootstrap/scss/_reboot';
@@ -41,3 +28,7 @@ footer span {
 @import 'bootstrap/scss/_card';
 @import 'bootstrap/scss/_images';
 @import 'bootstrap/scss/helpers/_position';
+
+// Custom
+@import 'custom_dropdown';
+@import 'footer';
