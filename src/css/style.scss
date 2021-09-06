@@ -32,3 +32,7 @@ $container-max-widths: (
 // Custom
 @import 'custom_dropdown';
 @import 'footer';
+
+p {
+ @extend .text-muted;
+}
