@@ -28,11 +28,21 @@
                                 Электрон Вебов
                             </h2>
                             <div class="row">
-                                <a id="change-status" class="text-secondary font-weight-bold">
-                                    изменить статус
-                                </a>
+                                <div id="change-status">
+                                    <a class="text-secondary font-weight-bold">
+                                        изменить статус
+                                    </a>
 
-                                <div id="change-status" class="custom-dropdown">
+                                    <div class="custom-dropdown p-3">
+                                        <form class='row'>
+                                            <div class="col-md-9">
+                                              <input type="string" class="form-control" id="input-status" placeholder="введите статус">
+                                            </div>
+                                            <div class="col-md-3">
+                                              <button type="button" id="save-btn" class="btn btn-primary">Сохранить</button>
+                                            </div>
+                                        </form>
+                                    </div>
                                 </div>
                             </div>
                             <hr>
