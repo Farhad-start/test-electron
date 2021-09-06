@@ -37,7 +37,7 @@ p {
  @extend .text-muted;
 }
 
-h5, .h5 {
+h5 {
   color: #e8e8e8;
 }
 
@@ -50,4 +50,35 @@ button {
   height: 30px;
   border-radius: 4px;
   padding-left: 15px;
+}
+
+.navbar-brand-avatar {
+  padding-right: 25px;
+  border-radius: 19px;
+}
+
+.menu {
+  color:white;
+}
+
+.elektron {
+  color:white;
+  padding-left: 90px;
+}
+
+.poisk{
+  height: 38px;
+  width: 350px;
+  margin: 10px 57px;
+  margin-right: 350px;
+  border-radius: 19px;
+  border: 0;
+  background-color: #1b6ea1;
+  color:white;
+  // background-image: url("file:///tmp/iconmonstr-search-thin.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  border-left: 17px solid transparent;
+  padding-left: 50px;
+  outline: none;
 }
