@@ -1,5 +1,8 @@
 @import 'bootstrap/scss/_functions';
 
+// Variables
+$base-blue: #278ece;
+
 // Default variable overrides
 $container-max-widths: (
   sm: 540px,
@@ -8,6 +11,11 @@ $container-max-widths: (
   xl: 1140px,
   xxl: 1200px
 ) !default;
+
+$primary: $base-blue;
+$font-size-base: 0.9rem;
+$btn-padding-x: 2.5rem;
+
 
 // Configuration
 @import 'bootstrap/scss/_variables';
@@ -37,12 +45,6 @@ p {
  @extend .text-muted;
 }
 
-nav {
-  h5 {
-    color: #e8e8e8;
-  }
-}
-
 .poisk{
   height: 38px;
   width: 350px;
@@ -51,11 +53,15 @@ nav {
   border-radius: 19px;
   border: 0;
   background-color: #1b6ea1;
-  color:white;
+  color: white;
   background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0xNS44NTMgMTYuNTZjLTEuNjgzIDEuNTE3LTMuOTExIDIuNDQtNi4zNTMgMi40NC01LjI0MyAwLTkuNS00LjI1Ny05LjUtOS41czQuMjU3LTkuNSA5LjUtOS41IDkuNSA0LjI1NyA5LjUgOS41YzAgMi40NDItLjkyMyA0LjY3LTIuNDQgNi4zNTNsNy40NCA3LjQ0LS43MDcuNzA3LTcuNDQtNy40NHptLTYuMzUzLTE1LjU2YzQuNjkxIDAgOC41IDMuODA5IDguNSA4LjVzLTMuODA5IDguNS04LjUgOC41LTguNS0zLjgwOS04LjUtOC41IDMuODA5LTguNSA4LjUtOC41eiIvPjwvc3ZnPg==");
   background-repeat: no-repeat;
   background-position: left;
   border-left: 17px solid transparent;
   padding-left: 50px;
   outline: none;
+}
+
+.btn-primary {
+  color: white;
 }
