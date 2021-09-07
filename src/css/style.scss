@@ -43,31 +43,6 @@ nav {
   }
 }
 
-// button {
-//   font-size: 14px;
-//   border: 1px solid #e8e8e8;
-//   outline: none;
-//   margin-bottom: 16px;
-//   width: 100%;
-//   height: 30px;
-//   border-radius: 4px;
-//   padding-left: 15px;
-// }
-
-.navbar-brand-avatar {
-  padding-right: 25px;
-  border-radius: 19px;
-}
-
-.menu {
-  color:white;
-}
-
-.elektron {
-  color:white;
-  padding-left: 90px;
-}
-
 .poisk{
   height: 38px;
   width: 350px;
@@ -77,11 +52,10 @@ nav {
   border: 0;
   background-color: #1b6ea1;
   color:white;
-  // background-image: url("file:///tmp/iconmonstr-search-thin.svg");
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0xNS44NTMgMTYuNTZjLTEuNjgzIDEuNTE3LTMuOTExIDIuNDQtNi4zNTMgMi40NC01LjI0MyAwLTkuNS00LjI1Ny05LjUtOS41czQuMjU3LTkuNSA5LjUtOS41IDkuNSA0LjI1NyA5LjUgOS41YzAgMi40NDItLjkyMyA0LjY3LTIuNDQgNi4zNTNsNy40NCA3LjQ0LS43MDcuNzA3LTcuNDQtNy40NHptLTYuMzUzLTE1LjU2YzQuNjkxIDAgOC41IDMuODA5IDguNSA4LjVzLTMuODA5IDguNS04LjUgOC41LTguNS0zLjgwOS04LjUtOC41IDMuODA5LTguNSA4LjUtOC41eiIvPjwvc3ZnPg==");
   background-repeat: no-repeat;
   background-position: left;
   border-left: 17px solid transparent;
   padding-left: 50px;
   outline: none;
 }
-
